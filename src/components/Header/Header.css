@@ -1,0 +1,13 @@
+.home{
+    color:black;
+}
+
+.home:hover{
+    background-color: #1111;
+    padding:10px 20px 10px 20px    
+}
+.home1:hover{
+    background-color: #1111 !important;
+    border-radius: 10px;
+    padding-right: 10px;
+}

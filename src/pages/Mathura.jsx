@@ -11,12 +11,7 @@ function Mathura() {
         width:"90%",
         margin:"auto",
         marginTop:"30px",
-        display:"flex",
-    
-     
-        
-
-      
+        display:"flex",      
     }}>
         <div style={{
             width:"50%",

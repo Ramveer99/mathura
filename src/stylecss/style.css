@@ -1,0 +1,27 @@
+.about-main
+{
+    margin-left: 529px;
+    margin-top:20px
+}
+
+ .about-contain {
+        /* background-color: antiquewhite; */
+        /* background-image: url(http://unsplash.it/200/?random?blur=2); */
+        background-color:rgb(255, 242, 225);
+        opacity: 159;
+        background-repeat: no-repeat;
+        background-position-x: center;
+       
+ }
+
+ .info-bg {
+    padding: 60px 0px;
+    background: linear-gradient(#0e020275, #00000094),
+    url(../image/Krishna.jpg);
+    background-repeat: no-repeat;
+    background-position: center -17%;
+    background-attachment: fixed;
+    /* background-size: 100vh; */
+    background-position-y: center;
+}
+

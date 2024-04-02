@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import ContactSupportIcon from '@mui/icons-material/ContactSupport';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 
 function Header() {
   return (
@@ -30,7 +31,9 @@ display:"flex",
  alignItems:"center",
  gap:"40px"
 }}>
-      <h1> Oodlesh</h1>
+      {/* <h1> <span style={{
+        color:"red"
+      }}> Ma</span>thura</h1> */}
       <Link to="/"  className='home'
       
       style={{
@@ -61,6 +64,25 @@ display:"flex",
         fontWeight:"350"
       }}
       >Contect</Link>
+      <div  style={{
+        position:"relative",
+        right:"-80px",
+        top:"3px",
+        color:"#e0e0e0"
+
+      }}>
+      <SearchRoundedIcon/>
+      </div>
+    
+       <input type="text"   placeholder='Search' style={{
+        width:"300px",
+        height:"30px",
+        borderRadius:"90px",
+        border:"2px solid #e0e0e0",
+        paddingLeft:"40px",
+        
+
+       }}/>
    </div>
   
      
@@ -140,6 +162,8 @@ display:"flex",
  </div>
     </div>
    
+   {/* search direction */}
+  
     </>
 
   );

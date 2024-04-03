@@ -31,9 +31,9 @@ display:"flex",
  alignItems:"center",
  gap:"40px"
 }}>
-      {/* <h1> <span style={{
+      <h1> <span style={{
         color:"red"
-      }}> Ma</span>thura</h1> */}
+      }}> Ma</span>thura</h1>
       <Link to="/"  className='home'
       
       style={{
@@ -151,7 +151,8 @@ display:"flex",
 <li> Hotels</li>
 <li> How to Reach </li>
 <li>Best Time To Visit </li>
-<li> Photos</li>
+<li>  <Link to="/photo"  >Photo</Link></li>
+
 <li> Food</li>
 
 <li style={{

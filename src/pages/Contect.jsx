@@ -158,7 +158,7 @@ function Contect() {
         justifyContent:"space-between"
       }}> 
        
-          <Card sx={{ maxWidth: 320 }}>
+          <Card sx={{ maxWidth: 280 }}>
       <CardMedia
         sx={{ height: 140 }}
         image="https://www.savaari.com/blog/wp-content/uploads/2021/01/indian-temple-4782312_1920-1024x683.jpg"
@@ -178,7 +178,7 @@ function Contect() {
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
-    <Card sx={{ maxWidth: 330 }}>
+    <Card sx={{ maxWidth: 280 }}>
       <CardMedia
         sx={{ height: 140 }}
         image="https://www.savaari.com/blog/wp-content/uploads/2021/01/indian-temple-4782312_1920-1024x683.jpg"
@@ -198,12 +198,33 @@ function Contect() {
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
-    <Card sx={{ maxWidth: 320 }}>
+    <Card sx={{ maxWidth: 280 }}>
       <CardMedia
         sx={{ height: 140 }}
         image="https://www.savaari.com/blog/wp-content/uploads/2021/01/indian-temple-4782312_1920-1024x683.jpg"
         title="green iguana"
       />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          Lizard
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          Lizards are a widespread group of squamate reptiles, with over 6,000
+          species, ranging across all continents except Antarctica
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small">Share</Button>
+        <Button size="small">Learn More</Button>
+      </CardActions>
+    </Card>
+    <Card sx={{ maxWidth: 280 }}>
+      <CardMedia
+        sx={{ height: 140 }}
+        image="https://www.savaari.com/blog/wp-content/uploads/2021/01/indian-temple-4782312_1920-1024x683.jpg"
+        title="green iguana"
+      />
+      
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           Lizard
@@ -229,7 +250,7 @@ function Contect() {
         justifyContent:"space-between"
       }}> 
        
-          <Card sx={{ maxWidth: 320 }}>
+          <Card sx={{ maxWidth: 280 }}>
       <CardMedia
         sx={{ height: 140 }}
         image="https://www.savaari.com/blog/wp-content/uploads/2021/01/indian-temple-4782312_1920-1024x683.jpg"
@@ -249,7 +270,7 @@ function Contect() {
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
-    <Card sx={{ maxWidth: 330 }}>
+    <Card sx={{ maxWidth: 280 }}>
       <CardMedia
         sx={{ height: 140 }}
         image="https://www.savaari.com/blog/wp-content/uploads/2021/01/indian-temple-4782312_1920-1024x683.jpg"
@@ -269,12 +290,33 @@ function Contect() {
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
-    <Card sx={{ maxWidth: 320 }}>
+    <Card sx={{ maxWidth: 280 }}>
       <CardMedia
         sx={{ height: 140 }}
         image="https://www.savaari.com/blog/wp-content/uploads/2021/01/indian-temple-4782312_1920-1024x683.jpg"
         title="green iguana"
       />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          Lizard
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+          Lizards are a widespread group of squamate reptiles, with over 6,000
+          species, ranging across all continents except Antarctica
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small">Share</Button>
+        <Button size="small">Learn More</Button>
+      </CardActions>
+    </Card>
+    <Card sx={{ maxWidth: 280 }}>
+      <CardMedia
+        sx={{ height: 140 }}
+        image="https://www.savaari.com/blog/wp-content/uploads/2021/01/indian-temple-4782312_1920-1024x683.jpg"
+        title="green iguana"
+      />
+      
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           Lizard
@@ -292,8 +334,10 @@ function Contect() {
     
 
       </div>
+    
   </div>
-    </>
+
+      </>
   )
 }
 

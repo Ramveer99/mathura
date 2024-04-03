@@ -9,6 +9,7 @@ import About from './pages/About';
 import Contect from './pages/Contect';
 import Header from './components/Header/Header';
 import Mathura from './pages/Mathura';
+import Photo from "./pages/Photo";
 
 function App() {
   return (  
@@ -19,6 +20,7 @@ function App() {
     <Route path="/about" element={<About/>}/>
     <Route path="/contect" element={<Contect/>}/>
     <Route path="/mathura" element={<Mathura/>}/>
+    <Route path="/photo" element={<Photo/>}/>
 
     
     </Routes>

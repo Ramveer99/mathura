@@ -10,6 +10,7 @@ import Contect from './pages/Contect';
 import Header from './components/Header/Header';
 import Mathura from './pages/Mathura';
 import PackageHotel from './components/Package/package'
+import Visitpage from './pages/Visit/Visit'
 
 function App() {
   return (  
@@ -21,6 +22,7 @@ function App() {
     <Route path="/contect" element={<Contect/>}/>
     <Route path="/mathura" element={<Mathura/>}/>
     <Route path='/package'  element={<PackageHotel /> } />
+    <Route path='/visitpage' element={<Visitpage />} />
    
 
     

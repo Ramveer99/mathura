@@ -146,10 +146,10 @@ display:"flex",
     
  }}>
 <li>  <Link to="/mathura"  >Mathura</Link></li>
-<li> Places To  Visit </li>
+<li> <Link to='/visitpage'>Places To  Visit </Link></li>
 <li> <Link to='/package'>Packegs</Link></li>
 <li> Hotels</li>
-<li> How to Reach </li>
+<li>  How to Reach </li>
 <li>Best Time To Visit </li>
 <li> Photos</li>
 <li> Food</li>
